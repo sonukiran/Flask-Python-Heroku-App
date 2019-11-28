@@ -1,2 +1,2 @@
 # PythonApp
-Sample App that integrated Github with Heroku
+Sample Python Flask App that can be integrated and deployed with Heroku
