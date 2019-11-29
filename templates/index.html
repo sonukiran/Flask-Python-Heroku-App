@@ -36,6 +36,12 @@ body, html {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+  
+.zoom:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 
 hr {
   margin: auto;
@@ -48,10 +54,15 @@ hr {
   <div class="topleft">
     <p>Logo</p>
   </div>
+  
   <div class="middle">
+ <div class="zoom">
     <h1>COMING SOON</h1>
+    </div>
     <hr>
+    <div class="zoom">
     <p>35 days left</p>
+    </div>
   </div>
   <div class="bottomleft">
     <p>@SonuKiran</p>
